@@ -2,19 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-orm-mybatis" />
+        <module name="springboot-shiro" />
+        <module name="springboot-webinterceptor" />
         <module name="springbootfromzero" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-orm-mybatis" target="11" />
+      <module name="springboot-shiro" target="11" />
+      <module name="springboot-webinterceptor" target="11" />
       <module name="springbootfromzero" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-orm-mybatis" options="-parameters" />
+      <module name="springboot-shiro" options="-parameters" />
+      <module name="springboot-webinterceptor" options="-parameters" />
       <module name="springbootfromzero" options="-parameters" />
     </option>
   </component>

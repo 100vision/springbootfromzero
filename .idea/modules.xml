@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-orm-mybatis/springboot-orm-mybatis.iml" filepath="$PROJECT_DIR$/springboot-orm-mybatis/springboot-orm-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" filepath="$PROJECT_DIR$/springboot-shiro/springboot-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webinterceptor/springboot-webinterceptor.iml" filepath="$PROJECT_DIR$/springboot-webinterceptor/springboot-webinterceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootfromzero.iml" filepath="$PROJECT_DIR$/springbootfromzero.iml" />
     </modules>
   </component>
